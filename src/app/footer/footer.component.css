@@ -1,0 +1,40 @@
+.mt1 {
+    margin-top: 1rem !important;
+    }
+    
+    .mr1 {
+    margin-right: 4rem !important;
+    }
+    .wf {
+    color: #FFF;
+    }
+    .pull-right {
+    float: right;
+    }
+    
+    
+    
+    .iFooter {
+        position: absolute;
+    }
+    .pull-left {
+    float: left;
+    }
+    .pull-right {
+    float: right;
+    }
+    .tac {
+        text-align: center;
+    }
+    /* Pie de página*/
+    footer {
+        height: 50px;
+        z-index: 9999999999;
+        background-color: #333333 !important;
+        bottom: 0; /* absolutely bottom */
+        width: 100%;
+    }
+    .row {
+    margin-left: 0px;
+    margin-right: 0px;
+    }

@@ -1,0 +1,21 @@
+.example-icon {
+    padding: 0 14px;
+  }
+  
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  .SearchClass{
+    padding: 0 16px;
+    border-radius: 2px 0 0 2px;
+    border: 0;
+    outline: 0 none;
+    font-size: 14px;
+    height: 36px;
+    width: 250%;
+  }
+  .searchDiv{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }

@@ -1,0 +1,48 @@
+<mat-toolbar color="primary">
+
+  <mat-toolbar-row > 
+    <span class="example-spacer">
+      <img src="assets/btlogojpg.jpg" height="50px" alt="biketrigger"/>
+    </span>
+    <div>
+      <input type="text" value="" class="SearchClass" title="Search for products, brands and more" name="q" autocomplete="off" placeholder="Search for products, brands and more">
+    </div>
+    <span class="example-spacer"></span>
+    
+    <span  [matMenuTriggerFor]="menu"  >
+      <mat-icon>account_circle</mat-icon>
+    </span>
+ 
+    <mat-menu #menu="matMenu" >
+      <button mat-menu-item>
+            <mat-icon>account_box</mat-icon>
+            <span>login / signup</span>
+      </button>
+      <button mat-menu-item>
+        <mat-icon>account_box</mat-icon>
+        <span>my account</span>
+      </button>
+      <button mat-menu-item>
+        <mat-icon>favorite</mat-icon>
+        <span>whishlist</span>
+      </button>
+      <button mat-menu-item>
+          <mat-icon>motorcycle</mat-icon>
+          <span>my bookings</span>
+      </button>
+      <button mat-menu-item>
+        <mat-icon>notifications_off</mat-icon>
+        <span>notifications</span>
+      </button>
+      <button mat-menu-item >
+        <mat-icon>help</mat-icon>
+        <span>help</span>
+      </button>
+
+      <button mat-menu-item >
+        <mat-icon>exit_to_app</mat-icon>
+        <span>logout</span>
+      </button>
+    </mat-menu>
+  </mat-toolbar-row>
+</mat-toolbar>
